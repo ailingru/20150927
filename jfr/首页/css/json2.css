@@ -1,0 +1,292 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: #6f6f6f;
+}
+
+.banxin {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+img {
+	vertical-align: middle;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+
+/*header头部*/
+.head{
+	box-shadow:0 0 5px rgba(0,0,0,.8) ;
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	z-index: 99;
+	top: 0;
+}
+header {
+	overflow: hidden;
+}
+
+header .join {
+	display: flex;
+	margin: 15px 0;
+	position: relative;
+}
+
+header .join>input {
+	width: 230px;
+	line-height: 30px;
+	border-radius: 15px;
+	font-size: 14px;
+	color: #a9a9a9;
+	margin-right: 36px;
+	border: 1px solid;
+	padding-left: 20px;
+	outline: none;
+}
+header .join>a{
+    position: absolute;
+    left: 193px;
+    top: 5px;
+}
+
+header .join>span {
+	font-size: 18px;
+	color: #6d6d6d;
+	padding-top: 2px;
+}
+
+.crl {
+	padding: 0 10px;
+}
+
+header .nav {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 18px;
+}
+
+header .nav>li {
+	width: 130px;
+	text-align: center;
+}
+
+header .nav>li>a {
+	display: block;
+	width: 80px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+
+header .nav>li:first-child>a {
+	width: 40px;
+}
+
+header .nav>li:hover a {
+	border-bottom: 2px solid #850913;
+}
+
+
+/*背景图片*/
+.bgpic>img{
+	width: 100%;
+	margin-top: 116px;
+}
+/*首页导航*/
+ul.lnav{
+	display:flex ;
+	width: 220px;
+   margin: 40px 0 12px 75%;
+}
+ul.lnav span{
+	margin: 0 10px;
+}
+ul.lnav>li:last-child a{
+	display: none;
+}
+ul.lnav>li:last-child .fg1{
+	display: block;
+}
+ul.lnav>li:hover a{
+	color: #b08080;
+}
+/*拍摄基地左部分*/
+.cont{
+	height: 600px;
+}
+.cont>.banxin{
+	position: relative;
+}
+.cont>hr{
+	margin-bottom: 30px;
+}
+.contL{
+	width:148px ;
+	height: 350px;
+	padding-left: 10px;
+}
+.contL>h2{
+	text-align: center;
+	margin-bottom: 10px;
+    margin-left: -10px;
+    padding-bottom: 3px;
+	border-bottom: 1px solid #666;
+}
+.contL .lline{
+	border-left: 1px solid #666;
+	padding-left: 10px;
+    margin-left: -9px;
+}
+.contL .lline>div{
+	margin-bottom: 10px;
+	position: relative;
+}
+.contL .lline>div h4{
+	font-size: 18px;
+	display: flex;
+}
+.contL .lline>div h4 .add{
+	position: absolute;
+    width: 118px;
+    text-align: right;
+}
+.contL .lline>div h4:hover{
+	color:#a15c5f;
+}
+.contL .lline>div span{
+	cursor: pointer;
+}
+.contL .line1{
+    position: absolute;
+    width: 1px;
+    height: 38px;
+    left: 0px;
+    top: 1px;
+    background: #666;
+}
+.contL .line2{
+	position: absolute;
+	width: 1px;
+    top: 54px;
+    left: 1px;
+    height: 24px;
+    background: #666;
+
+}
+.contL .line3{
+    position: absolute;
+    width: 1px;
+    height: 19px;
+    top: 19px;
+    left: 148px;
+    background: #666;
+}
+.contL .line4{
+	position: absolute;
+    left: -3px;
+    transition: all 1s;
+}
+
+.contR,.contR2{
+	width:950px ;
+	float: right;
+	margin-top: 30px;
+	display: none;
+}
+.contR2{
+	display: block;
+}
+.contR>div,.contR2>div{
+	width: 210px;
+	border-bottom: 1px solid #b13537;
+	padding-bottom:6px;
+}
+.contR>div>span:nth-child(1),.contR2>div>span:nth-child(1){
+	font-size: 18px;
+}
+.contR>div>span:nth-child(3),.contR>div>span:nth-child(4),.contR2>div>span:nth-child(3),.contR2>div>span:nth-child(4){
+	font-size:14px ;
+	color: #666;
+}
+.contR>p,.contR2>p{
+	line-height:30px;
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+.contR>ul,.contR2>ul{
+	float: right;
+	position: relative;
+}
+.contR>ul>li,.contR2>ul>li{
+	display: inline-block;
+	text-align: center;
+}
+.contR>ul img,.contR2>ul img{
+	width:310px ;
+	height: 360px;
+	margin-bottom: 15px;
+}
+.contR>ul>li .mc,.contR2>ul>li .mc{
+	width: 310px;
+	height:100px;
+	padding:24px 20px;
+	color: #fff;
+	font-size: 14px;
+	position: absolute;
+	opacity: 0;
+	transition: all 2s;
+	top: 260px;
+	background: rgba(141,76,75,.5);
+}
+.contR>ul>li:hover .mc,.contR2>ul>li:hover .mc{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+footer{
+	margin-top: 50px;
+	text-align: center;
+	color: #fff;
+	line-height: 90px;
+	width: 100%;
+	background:#666 ;
+}

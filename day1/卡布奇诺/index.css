@@ -1,0 +1,118 @@
+/*卡布基诺*/
+header>img{
+	height: 80px;
+	width:144px ;
+	float: left;
+	margin-left:60px ;
+}
+header>ul{
+	float: right;
+	margin-right: 60px;
+}
+header>ul>li{
+	float: left;
+}
+header>ul>li>a{
+	display: block;
+	font-size: 20px;
+	width:120px ;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	border-bottom: 3px solid transparent;
+}
+header>ul>li>a:hover{
+	border-bottom: 3px solid #866961;
+	color: #866961;
+}
+.bgpic{
+	background: url(images/pic-15_02.png) no-repeat;
+	width: 100%;
+    height: 400px;
+    clear: both;
+}
+/*内容部分*/
+.content1{
+	width: 996px;
+	height: 72px;
+	margin:0 102px 26px 102px;
+    padding-top: 28px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.content1_left>span:nth-child(1){
+	float: left;
+	display: block;
+    margin-top: 8px;
+	width: 2px;
+	height: 10px;
+	background:#866961 ;
+}
+.content1_left>span:nth-child(2){
+	float: left;
+	margin-left: 8px;
+}
+.content1_left>span:nth-child(4){
+	font-size: 12px;
+	color: #999;
+	clear: both;
+}
+.content1_right{
+	font-size: 14px;
+    padding-top: 24px;
+}
+.content1_right>.color{
+	color:#999;
+}
+/*content2*/
+.content2_left>img{
+	width:430px ;
+	height: 506px;
+	margin-left: 102px;
+}
+.content2_right{
+	width: 530px;
+	margin-right: 102px;
+}
+.content2_right>p{
+	text-indent: 2em;
+	text-align: justify;
+	line-height:30px ;
+}
+.content2_right>p:first-child{
+	padding: 20px 0 36px 0;
+}
+/*ffooter*/
+footer{
+	width: 100%;
+	height: 80px;
+	background:#866961 ;
+    margin-top: 20px;
+}
+.foot{
+	display: flex;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+.foot>div{
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+}
+.foot>div>img{
+	width: 11px;
+	height: 10px;
+   margin:7px;
+}
+.foot>div>.kong{
+    width: 2px;
+    height: 18px;
+    background: #fff;
+    margin: 2px 0 0 10px;
+}
+.foot>div>span:nth-of-type(6){
+	margin: 0 10px;
+}
+.foot>div>span:nth-of-type(4){
+	margin: 0 10px;
+}
